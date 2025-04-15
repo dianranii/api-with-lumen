@@ -17,8 +17,8 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/Student', 'studentController@index');
-$router->get('/Student/{id}', 'Studentcontroller@read');
-$router->post('/Student', 'studentController@create');
-$router->put('/Student/{id}', 'studentController@update');
-$router->delete('/Student/{id}', 'studentController@delete');
+$router->get('/Student', 'StudentController@index');
+$router->get('/Student/{id}', 'StudentController@read');
+$router->post('/Student', 'StudentController@create');
+$router->put('/Student/{id}', 'StudentController@update');
+$router->delete('/Student/{id}', 'StudentController@delete');

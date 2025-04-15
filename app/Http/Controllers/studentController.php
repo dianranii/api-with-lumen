@@ -6,7 +6,7 @@ use App\Models\student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class studentController extends Controller {
+class StudentController extends Controller {
     
     function index(){
         $student = Student::all();
